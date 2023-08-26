@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link, NavLink, useNavigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link, NavLink, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Produtos from './components/Produtos';
 import './App.css'
@@ -16,7 +16,7 @@ const api = ``
   return (
     <>
     <div className='App'>
-  <BrowserRouter>
+  <HashRouter>
       <Header />
   <div className='conteudo'>
    <Routes>
@@ -26,7 +26,7 @@ const api = ``
   </Routes>
   </div>
     
-    </BrowserRouter>
+    </HashRouter>
    
     </div>
     <Footer />
