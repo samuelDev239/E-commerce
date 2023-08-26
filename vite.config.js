@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react(),
 
   ],
+  base: "/E-commerce.git"
  
 })
