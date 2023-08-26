@@ -1,0 +1,15 @@
+.footer {
+    text-align: center;
+    font-family: arial;
+    color: #ffffff;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    box-sizing: border-box;
+    background-color: #1d1d1d;
+    margin-top: 5rem;
+
+    
+}
